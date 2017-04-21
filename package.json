@@ -1,0 +1,41 @@
+{
+  "name": "react-native-timezone-picker-simple",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/proberts/react-native-timezone-picker-simple.git"
+  },
+  "version": "0.1.0",
+  "description": "A simple timezone picker and utilities for React Native",
+  "nativePackage": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "scripts/postinstall.js",
+    "install": "scripts/postinstall.js",
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "ios",
+    "android",
+    "react-component",
+    "timezone",
+    "picker"
+  ],
+  "author": "Patrick Roberts <patr@nicetomeet.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/proberts/react-native-timezone-picker-simple/issues"
+  },
+  "homepage": "https://github.com/proberts/react-native-timezone-picker-simple"
+  "peerDependencies": {
+    "react-native": ">=0.39.1",
+  },
+  "devDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-react": ">=6.10.3"
+  },
+  "dependencies": {
+    "react-native-modal-picker": ">=0.0.16"
+  }
+}
